@@ -1,0 +1,48 @@
+
+*** These modified files were found in JOE when it aborted on Mon Sep 10 17:36:07 2018
+*** JOE was aborted because the terminal closed
+
+*** File 'stanovi.json'
+[
+            {"city": "beograd",
+             "location": Bulevar,
+             "m2": 100,
+             "rooms": 3,
+             "price": "150000"
+             "cover-pictures": "mask1.png"
+            },
+            {"grad": "zajecar",
+             "lat": 33,
+             "lon": 55,
+             "price": 2222
+            },
+            {"grad": "majdanmpek",
+             "lat": 33,
+             "lon": 55,
+             "price": 2223
+            }
+]
+*** File '(Unnamed)'
+"
+
+*** File '(Unnamed)'
+'
+
+*** File '(Unnamed)'
+stanovi.json
+index.html
+index.html
+stanovi.json
+index.html
+index.html
+index.html
+stanovi.json
+index.html
+index.py
+stanovi.json
+
+*** File '* Startup Log *'
+Processing '/etc/joe/joerc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/joerc

@@ -1,0 +1,30 @@
+[
+            { "city": "beograd",
+              "location": "Skupština",
+              "m2": 92,
+              "rooms": 3,
+              "price": 330000,
+              "cover-image": "static/img/stan1/IMG_20180828_150354.jpg",
+              "images": [ "static/img/stan1/IMG_20180828_150354.jpg",
+                "static/img/stan1/IMG_20180828_150451.jpg","static/img/stan1/IMG_20180828_150456.jpg","static/img/stan1/IMG_20180828_150610.jpg",
+                "static/img/stan1/IMG_20180828_150616.jpg",
+              "static/img/stan1/IMG_20180828_150644.jpg","static/img/stan1/IMG_20180828_150914.jpg",
+                "static/img/stan1/IMG_20180828_150656.jpg","static/img/stan1/IMG_20180828_150725.jpg","static/img/stan1/IMG_20180828_150730.jpg"],
+              "description": "Atraktivan i luksuzno renoviran, trosoban, salonski stan. Od prostorija veliki salon, kuhinja, dve velike spavace sobe, dva mokra čvora i vešeraj. Stan je dvostrano orjentisan, veoma svetao i sunčan sa očaravajućim pogledom na reku i park. Veoma lepa salonska zgrada sa sređenim i urednim ulazom i obnovljenom fasadom. Stan je uknjižen i brzo useljiv. Agencijska provizija 2%"
+
+            },
+            { "city": "beograd",
+              "location": "Braće Jerković",
+              "m2": "67 + 7",
+              "rooms": "2,5",
+              "price": 85000,
+              "cover-image": "static/img/stan2/P2160004.JPG",
+              "images": [ "static/img/stan2/P2160004.JPG","static/img/stan2/P2160008.JPG",
+                "static/img/stan2/P2160016.JPG",
+                "static/img/stan2/P2160018.JPG","static/img/stan2/P2160025.JPG",
+                "static/img/stan2/P2160026.JPG","static/img/stan2/P2160027.JPG","static/img/stan2/P2160028.JPG",
+                "static/img/stan2/P2160029.JPG"],
+              "description": "Braće Jerković, dvoiposoban, 67kv + 7kv lođa, na 3/5, lift, TA, detaljno renoviran i uknjižen. Dvostran, svetao i sunčan. Nalazi se u blizini tržnog centra Stadion. Zgrada uredna sa  obnovljenom fasadom i novim liftom. Agencijska provizija 2%"
+            }
+]
+

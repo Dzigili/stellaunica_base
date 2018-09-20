@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+
+<head>
+
+    <!-- Basic Page Needs
+    ---------------------------------------- -->
+
+    <meta charset="UTF-8">
+    <title>Stella Unica</title>
+    <meta name="description" content="">
+    <meta name="author" content="Stella Unica | www.stellaunica.rs">
+
+
+    <!-- Mobile Specific Metas
+    ---------------------------------------- -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FONT
+    ---------------------------------------- -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300i,400,700,900" rel="stylesheet">
+
+    <!-- CSS
+    ---------------------------------------- -->
+    <!--<link rel="stylesheet" href="/static/css/reset.css" type="text/css">-->
+    <link rel="stylesheet" href="static/style.css" type="text/css">
+
+    <!-- SCRIPT
+    ---------------------------------------- -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="static/script.js"></script>
+
+
+
+</head>
+
+
+<body>
+
+<div class="container">
+
+    <div class="menu">
+        <img class="logo" src="static/img/Stella_unica_logo.png">
+
+        <label class="respon" for="toggle">&#9776;</label>
+        <input type="checkbox" id="toggle">
+
+        <nav>
+            <ul>
+                <li><a href="#about-us" class="slide-section">O nama</a></li>
+                <li><a href="#apartments" class="slide-section">Stanovi</a></li>
+                <li><a href="#service" class="slide-section">Usluge</a></li>
+                <li><a href="#contact" class="slide-section">Kontakt</a></li>
+            </ul>
+        </nav>
+
+    </div>
+</div>
+
+<div class="container2">
+
+    <h1 id="about-us">O nama</h1>
+
+    <div class="line-orange"></div>
+
+    <p class="about-us-text">
+        Agencija Stella Unica osnovana je 2012. godine i od tada uspešno posluje na tržištu nekretnina na području grada Beograda.
+        Osnivač, Danica Petronijević, licencirani agent sa dugogodišnjim iskustvom, zajedno sa  svojim timom saradnika,
+        profesionalno i sa puno entuzijazma pruža podršku klijentima u važnim životnim odlukama. Zadovoljstvo i sigurnost naših klijenata,
+        su nam na prvom mestu. Agencija za nekretnine Stella Unica, nudi i niz korisnih usluga koje klijentima olakšavaju prodaju,
+        kupovinu, najam i zakup kuće, stana ili poslovnog prostora te im omogućava bolje snalaženje na tržištu nekretnina.
+        Posebno nam je važna pravna sigurnost, koju obezbeđujemo saradnjom sa najpouzdanijim advokatima.
+    </p>
+
+    <div class="pictures">
+        <img src="static/img/danica.jpg">
+    </div>
+
+    <p class="danica">Danica Petronijević</p>
+    <p class="registar">Registar posrednika broj: 476</p>
+</div>
+
+<div class="container3">
+
+    <div class="meni">
+        <h1 id="apartments">Stanovi</h1>
+
+        <div class="line-orange"></div>
+    </div>
+
+
+
+    <div class="group">
+
+        {% for stan in stanovi %}
+
+        <div id="apa-1" class="apartment" onclick="openModal(JSON.stringify( {{stan['images']}}) , '{{stan['description']}}')">
+            <!--{{stan['images']}}-->
+            <div class="image">
+
+                    <img src="{{stan['cover-image']}}">
+            </div>
+            <div class="info">
+                <h3>{{stan['city']}}</h3>
+                <p style="white-space: nowrap">{{stan['location']}}</p>
+            </div>
+            <table>
+                <tr>
+                    <th>m2</th>
+                    <th>SOBA</th>
+                    <th>CENA</th>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td>{{stan['m2']}}</td>
+                    <td>{{stan['rooms']}}</td>
+                    <td>{{stan['price']}}<span class="euro">€</span></td>
+                </tr>
+            </table>
+        </div>
+
+
+        {% end %}
+
+        <!--<div id="apa-2" class="apartment">-->
+        <!--<div class="image">-->
+        <!--<a href="images/stan2/mask2.png" data-lightbox="mygallery"><img src="images/stan2/mask2.png"></a>-->
+        <!--</div>-->
+        <!--<div class="info">-->
+        <!--<h3>Beograd</h3>-->
+        <!--<p>Kosovska, 37</p>-->
+        <!--</div>-->
+        <!--<table>-->
+        <!--<tr>-->
+        <!--<th>m2</th>-->
+        <!--<th>SOBA</th>-->
+        <!--<th>CENA</th>-->
+        <!--</tr>-->
+        <!--</table>-->
+        <!--<table>-->
+        <!--<tr>-->
+        <!--<td>85</td>-->
+        <!--<td>2,5</td>-->
+        <!--<td>165000<span class="euro">€</span></td>-->
+        <!--</tr>-->
+        <!--</table>-->
+        <!--</div>-->
+
+        <!--<div id="apa-3" class="apartment">-->
+        <!--<div class="image">-->
+        <!--<a href="images/stan3/mask3.png" data-lightbox="mygallery"><img src="images/stan3/mask3.png"></a>-->
+        <!--</div>-->
+        <!--<div class="info">-->
+        <!--<h3>Beograd</h3>-->
+        <!--<p>Bitoljska, 20</p>-->
+        <!--</div>-->
+        <!--<table>-->
+        <!--<tr>-->
+        <!--<th>m2</th>-->
+        <!--<th>SOBA</th>-->
+        <!--<th>CENA</th>-->
+        <!--</tr>-->
+        <!--</table>-->
+        <!--<table>-->
+        <!--<tr>-->
+        <!--<td>200</td>-->
+        <!--<td>5</td>-->
+        <!--<td>360000<span class="euro">€</span></td>-->
+        <!--</tr>-->
+        <!--</table>-->
+        <!--</div>-->
+    </div>
+
+    <!--<button name="btn" id="look-up">vidi još</button>-->
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <!--<span class="close">&times;</span>-->
+            <div class="left" onclick="goLeft()">
+                <img src="static/img/prev.png">
+            </div>
+
+            <div class="photo">
+                <img class="imgOfapa" id="modal_img" src="">
+                <div class="btn-close" onclick="closeModal()"><img src="static/img/close.png"></div>
+                <p id="textMessige">
+                    {{stan['description']}}
+                </p>
+            </div>
+
+            <div class="right" onclick="goRight()">
+                <img src="static/img/next.png">
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+</div>
+
+<div class="container4">
+
+    <h1 id="service">usluge koje pružamo</h1>
+    <div class="line"></div>
+
+    <div id="content">
+
+        <div>
+            <h2>Prodaja nekretnina</h2>
+        </div>
+        <div>
+            <h2>Pomoć pri proceni realne vrednosti nekretnine</h2>
+        </div>
+        <div>
+            <h2>Izradu predugovora i ugovora</h2>
+        </div>
+        <div>
+            <h2>Kupovina nekretnina</h2>
+        </div>
+        <div>
+            <h2>Pravne, ekonomske i druge savete</h2>
+        </div>
+        <div>
+            <h2>Učestvovanje u poreskom postupku</h2>
+        </div>
+        <div>
+            <h2>Izdavanje i uzimanje u zakup</h2>
+        </div>
+        <div>
+            <h2>Proveru ispravnosti dokumentacije</h2>
+        </div>
+        <div>
+            <h2>Uknjižbu prava svojine</h2>
+        </div>
+
+    </div>
+
+</div>
+
+<div CLASS="container5">
+
+    <h1 id="contact">Kontakt</h1>
+    <div class="line-orange"></div>
+
+    <form>
+
+
+        <div class="input-form">
+            <div class="input">
+                <input id="inputName" name="name" type="text" placeholder="Ime">
+            </div>
+            <div class="input">
+                <input id="inputEmail" name="_replyto" type="email" placeholder="Email*">
+            </div>
+        </div>
+
+        <div class="inner-msg">
+            <div class="msg">
+                <textarea name="messige" placeholder="Poruka*"></textarea>
+            </div>
+        </div>
+
+        <input class="btn" type="submit" name="submit" value="Pošalji">
+
+
+    </form>
+
+    <div class="address">
+
+        <div class="inner-adr">
+            <img src="static/img/map.png">
+            <p>Bitoljska 20,<br>
+                11000 Beograd</p>
+        </div>
+
+        <div class="inner-adr">
+            <img src="static/img/icon.png">
+            <p>danica.petronijevic@gmail.com</p>
+        </div>
+
+        <div class="inner-adr">
+            <img src="static/img/phone.png">
+            <p>+381 63 533 829</p>
+        </div>
+    </div>
+
+</div>
+
+
+<footer>
+    <div class="footer-wrap">
+        <p>© Stella Unica 2018. Sva prava zadržana.</p>
+
+        <nav>
+            <ul>
+                <li><a href="#about-us">O nama</a></li>
+                <li><a href="#apartments">Stanovi</a></li>
+                <li><a href="#service">Usluge</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </div>
+
+</footer>
+
+</body>
+
+
+</html>

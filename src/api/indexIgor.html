@@ -1,0 +1,18 @@
+<p>
+hello world
+
+<ul>
+  {% for stan in stanovi %}
+  <li>{{stan['city']}}
+    
+    {% if 'image' in stan %}
+        <img src="stan['image']">
+    {% end %}
+    
+  
+  </li>  
+  {% end %}
+</ul>
+
+
+</p>
