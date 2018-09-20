@@ -40,9 +40,9 @@ class Submit(Base):
             <html>
             <body>
                 <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
-                    <tr style="background-color: #FFFFFF;">
+                    <tr style="background-color: #000000;">
                         <td style="padding: 40px 0 30px 10px;">
-                            <img src="http://206.189.251.177:1301/static/img/logo-black.png" style="display: block;"/>
+                            <img src="http://dodaj.rs/images/Stella_unica_logo.png" style="display: block;"/>
                         </td>
                     </tr>
                     <tr>
@@ -94,7 +94,7 @@ class Submit(Base):
         import redis
 
         rdb = redis.Redis()
-        rdb.lpush('altiquantum_worker_mail_queue', json.dumps(
+        rdb.lpush('stellaunica_worker_mail_queue', json.dumps(
             r_data
         ))
 

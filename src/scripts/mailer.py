@@ -21,12 +21,12 @@ if __name__ == '__main__':
     r = redis.Redis()
 
     while True:
-        task = r.brpop('altiquantum_worker_mail_queue', 5)
+        task = r.brpop('stellaunica_worker_mail_queue', 5)
         print("TASK",task)
         if not task:
             continue
 
-        if task[0] == b'altiquantum_worker_mail_queue':
+        if task[0] == b'stellaunica_worker_mail_queue':
             res = json.loads(task[1].decode('utf-8'))
 
         sender = res['sender']
@@ -47,13 +47,13 @@ if __name__ == '__main__':
 
         from sendgrid.helpers.mail import *
 
-        from_email = Email("do-not-reply@altiquantum.com", "www.altiquantum.com")
+        from_email = Email("do-not-reply@stellaunica.rs", "www.stellaunica.rs")
         to_email = Email(receiver, receiver_name)
         subject = subject
         content = Content("text/html", emsg)
         personailization = Personalization()
-        # personailization.add_to(Email("igor@digitalcube.rs", "Igor"))
-        personailization.add_to(Email("igor.v@digitalcube.rs", "Igor"))
+        personailization.add_to(Email("danica.petronijevic@gmail.com", "Danica"))
+        personailization.add_to(Email("igor.vujkovic@gmial", "Igor"))
         mail = Mail(from_email, subject, to_email, content)
         mail.add_personalization(personailization)
 

@@ -14,10 +14,10 @@ def get_app_config():
         sys.exit()
 
 email_subject = 'New contact message from www.stellaunica.rs'
-address_for_email = 'igor.v@digitalcube.rs'
+address_for_email = 'danica.petronijevic@gmail.com'
 
 
-app_name = 'stelaunica'
+app_name = 'stellaunica'
 app_description = 'base application'
 port = 8802
 app_prefix = 'api'
