@@ -124,53 +124,7 @@
 
         {% end %}
 
-        <!--<div id="apa-2" class="apartment">-->
-        <!--<div class="image">-->
-        <!--<a href="images/stan2/mask2.png" data-lightbox="mygallery"><img src="images/stan2/mask2.png"></a>-->
-        <!--</div>-->
-        <!--<div class="info">-->
-        <!--<h3>Beograd</h3>-->
-        <!--<p>Kosovska, 37</p>-->
-        <!--</div>-->
-        <!--<table>-->
-        <!--<tr>-->
-        <!--<th>m2</th>-->
-        <!--<th>SOBA</th>-->
-        <!--<th>CENA</th>-->
-        <!--</tr>-->
-        <!--</table>-->
-        <!--<table>-->
-        <!--<tr>-->
-        <!--<td>85</td>-->
-        <!--<td>2,5</td>-->
-        <!--<td>165000<span class="euro">€</span></td>-->
-        <!--</tr>-->
-        <!--</table>-->
-        <!--</div>-->
 
-        <!--<div id="apa-3" class="apartment">-->
-        <!--<div class="image">-->
-        <!--<a href="images/stan3/mask3.png" data-lightbox="mygallery"><img src="images/stan3/mask3.png"></a>-->
-        <!--</div>-->
-        <!--<div class="info">-->
-        <!--<h3>Beograd</h3>-->
-        <!--<p>Bitoljska, 20</p>-->
-        <!--</div>-->
-        <!--<table>-->
-        <!--<tr>-->
-        <!--<th>m2</th>-->
-        <!--<th>SOBA</th>-->
-        <!--<th>CENA</th>-->
-        <!--</tr>-->
-        <!--</table>-->
-        <!--<table>-->
-        <!--<tr>-->
-        <!--<td>200</td>-->
-        <!--<td>5</td>-->
-        <!--<td>360000<span class="euro">€</span></td>-->
-        <!--</tr>-->
-        <!--</table>-->
-        <!--</div>-->
     </div>
 
     <!--<button name="btn" id="look-up">vidi još</button>-->
@@ -249,7 +203,7 @@
     <h1 id="contact">Kontakt</h1>
     <div class="line-orange"></div>
 
-    <form>
+    <form id="contact-form">
 
 
         <div class="input-form">
@@ -263,11 +217,14 @@
 
         <div class="inner-msg">
             <div class="msg">
-                <textarea name="messige" placeholder="Poruka*"></textarea>
+                <textarea id="inputMessage" name="messige" placeholder="Poruka*"></textarea>
             </div>
         </div>
 
-        <input class="btn" type="submit" name="submit" value="Pošalji">
+        <p id="contact-submit-box-replay-msg"> </p>
+
+        <input id="contactSubmit" class="btn" name="submit" value="Pošalji">
+        <!--<div id="contactSubmit" class="btn">Pošalji</div>-->
 
 
     </form>
