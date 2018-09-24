@@ -208,7 +208,8 @@ body {
   border-radius: 5px;
   background-color: white;
   box-shadow: 0 0 10px 1px rgba(83, 194, 232, 0.1);
-  transition: 1s; }
+  transition: 1s;
+  cursor: pointer; }
 
 .apartment:hover {
   transform: scale(1.1);
@@ -720,16 +721,19 @@ footer {
   background: transparent;
   position: absolute;
   left: 1em;
-  top: 2em; }
+  top: 2em;
+  cursor: pointer; }
 
 .left {
   position: relative;
   top: 40%;
-  height: fit-content; }
+  height: fit-content;
+  cursor: pointer; }
 
 .right {
   position: relative;
   top: 40%;
-  height: fit-content; }
+  height: fit-content;
+  cursor: pointer; }
 
 /*# sourceMappingURL=style.css.map */
