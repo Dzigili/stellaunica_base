@@ -354,7 +354,8 @@ table tr td {
   margin: 15px auto; }
 
 .container5 {
-  height: 400px;
+  min-height: 400px;
+  height: auto;
   max-width: 1440px;
   background-color: #FFFFFF;
   -webkit-background-size: cover;
@@ -362,7 +363,7 @@ table tr td {
   -o-background-size: cover;
   background-size: cover;
   width: 100%;
-  padding: 77px 0;
+  padding-top: 80px;
   position: relative;
   margin: 0 auto; }
 
@@ -568,8 +569,7 @@ footer {
     height: 100%; } }
 @media screen and (max-width: 700px) {
   .container5 {
-    display: grid;
-    height: 500px; }
+    display: grid; }
 
   form {
     width: 90%;
@@ -652,9 +652,6 @@ footer {
 @media screen and (max-width: 400px) {
   .container2 {
     height: 980px; }
-
-  .container5 {
-    height: 530px; }
 
   #content div {
     padding: 0 20px 0; }
