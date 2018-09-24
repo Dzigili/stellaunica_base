@@ -428,7 +428,8 @@ form {
   letter-spacing: 0.5px;
   line-height: 18px;
   text-align: center;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  cursor: pointer; }
 
 .btn:hover {
   background: #F5A623;
