@@ -2,15 +2,20 @@
 
 import sys
 import json
+import socket
 
 def get_app_config():
 
+    conf_file = '/etc/stellaunica.config.json'
+    if socket.gethostname() == 'new-digitalcube-prod':
+        conf_file = '/home/stellaunica/config/stellaunica.config.json'
+
     try:
-        with open('/etc/stellaunica.config.json', 'r') as f:
+        with open(conf_file, 'r') as f:
             return json.load(f)
     except Exception as e:
         print(e)
-        print("error, missing src/config/config.json, or json not valid :: {}".format(e))
+        print("error, missing {}, or json not valid :: {}".format(conf_file, e))
         sys.exit()
 
 email_subject = 'New contact message from www.stellaunica.rs'

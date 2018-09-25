@@ -1,0 +1,10 @@
+wheel
+requests
+bcrypt
+tornado
+sqlalchemy
+alembic
+psycopg2-binary
+redis
+sendgrid
+
