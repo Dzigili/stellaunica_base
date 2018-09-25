@@ -19,7 +19,7 @@ address_for_email = 'danica.petronijevic@gmail.com'
 
 app_name = 'stellaunica'
 app_description = 'base application'
-port = 8802
+port = 8803
 app_prefix = 'api'
 app_version = '0.0.1'
 
