@@ -1,3 +1,7 @@
+# CUSTOM
+static/.sass-cache
+static/style.css*
+  
 # BASE specific
 log/*
 tests/log/*
