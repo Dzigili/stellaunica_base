@@ -1,10 +1,10 @@
 {
     "8802": {
         "db_host": "localhost",
-        "db_name": "su",
+        "db_name": "stellaunica",
         "db_password": "123",
         "db_port": "5432",
         "db_type": "postgresql",
-        "db_user": "stelaunica"
+        "db_user": "stellaunica"
     }
 }
