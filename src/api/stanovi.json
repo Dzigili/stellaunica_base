@@ -1,18 +1,5 @@
 [
             { "city": "beograd",
-              "location": "Skupština",
-              "m2": 92,
-              "rooms": 3,
-              "price": 330000,
-              "cover-image": "static/img/stan1/bjeka101.jpg",
-              "images": [ "static/img/stan1/bjeka101.jpg","static/img/stan1/bjeka102.jpg","static/img/stan1/bjeka103.jpg",
-                "static/img/stan1/bjeka104.jpg","static/img/stan1/bjeka105.jpg","static/img/stan1/bjeka106.jpg",
-                "static/img/stan1/bjeka107.jpg","static/img/stan1/bjeka108.jpg","static/img/stan1/bjeka109.jpg",
-                "static/img/stan1/bjeka110.jpg","static/img/stan1/bjeka111.jpg"],
-              "description": "Atraktivan i luksuzno renoviran, trosoban, salonski stan. Od prostorija veliki salon, kuhinja, dve velike spavace sobe, dva mokra čvora i vešeraj. Stan je dvostrano orjentisan, veoma svetao i sunčan sa očaravajućim pogledom na reku i park. Veoma lepa salonska zgrada sa sređenim i urednim ulazom i obnovljenom fasadom. Stan je uknjižen i brzo useljiv. Agencijska provizija 2%"
-
-            },
-            { "city": "beograd",
               "location": "Braće Jerković",
               "m2": "67 + 7",
               "rooms": "2,5",
@@ -23,19 +10,6 @@
                 "static/img/stan2/bj107.jpg","static/img/stan2/bj108.jpg","static/img/stan2/bj109.jpg",
                 "static/img/stan2/bj110.jpg","static/img/stan2/bj111.jpg"],
               "description": "Braće Jerković, dvoiposoban, 67kv + 7kv lođa, na 3/5, lift, TA, detaljno renoviran i uknjižen. Dvostran, svetao i sunčan. Nalazi se u blizini tržnog centra Stadion. Zgrada uredna sa  obnovljenom fasadom i novim liftom. Agencijska provizija 2%"
-            },
-            { "city": "beograd",
-              "location": "Hram, Avalska",
-              "m2": 59,
-              "rooms": 2,
-              "price": 145000,
-              "cover-image": "static/img/stan3/hram102.jpg",
-              "images": [ "static/img/stan3/hram102.jpg","static/img/stan3/hram103.jpg",
-                "static/img/stan3/hram104.jpg","static/img/stan3/hram105.jpg","static/img/stan3/hram106.jpg",
-                "static/img/stan3/hram108.jpg","static/img/stan3/hram109.jpg",
-                "static/img/stan3/hram110.jpg","static/img/stan3/hram112.jpg",
-                "static/img/stan3/hram113.jpg","static/img/stan3/hram114.jpg"],
-              "description": "Hram, Avalska, dvososoban, 59kv mereno, 55kv uknjiženo plus lođa. U zgtadi iz 1968god, na trećem spratu od pet, novi lift, cg. Dvostran svetao, u sve prostorije iz predsoblja, kuhinja i kupatilo sa prirodnom ventilacijom. Stan je u odličnom stanju, ima parking u zajedničkom dvorištu i podrum. Prodaje se sa nameštajem, ali može i bez, po dogovoru. Uknjižen, odmah useljiv. Agencijska provizija 2%"
             }
 ]
 
