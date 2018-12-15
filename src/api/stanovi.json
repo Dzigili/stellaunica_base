@@ -1,15 +1,13 @@
 [
             { "city": "beograd",
-              "location": "Braće Jerković",
-              "m2": "67 + 7",
-              "rooms": "2,5",
-              "price": 79900,
-              "cover-image": "static/img/stan2/bj101.jpg",
-              "images": [ "static/img/stan2/bj101.jpg","static/img/stan2/bj102.jpg","static/img/stan2/bj103.jpg",
-                "static/img/stan2/bj104.jpg","static/img/stan2/bj105.jpg","static/img/stan2/bj106.jpg",
-                "static/img/stan2/bj107.jpg","static/img/stan2/bj108.jpg","static/img/stan2/bj109.jpg",
-                "static/img/stan2/bj110.jpg","static/img/stan2/bj111.jpg"],
-              "description": "Braće Jerković, dvoiposoban, 67kv + 7kv lođa, na 3/5, lift, TA, detaljno renoviran i uknjižen. Dvostran, svetao i sunčan. Nalazi se u blizini tržnog centra Stadion. Zgrada uredna sa  obnovljenom fasadom i novim liftom. Agencijska provizija 2%"
+              "location": "Lokal, Vračar",
+              "m2": "37",
+              "rooms": "/",
+              "price": 95000,
+              "cover-image": "static/img/stan1/018.jpg",
+              "images": [ "static/img/stan1/018.jpg","static/img/stan1/010.jpg","static/img/stan1/002.jpg",
+                "static/img/stan1/008.jpg","static/img/stan1/017.jpg","static/img/stan1/021.jpg"],
+              "description": "Vračar, lokal blizu Njegoševe, 37kv, u prizemlju sa izlogom ka ulici.Luksuzno sređen sa mini kuhinjom i mokrim čvorom. Cena 95000e"
             }
 ]
 
