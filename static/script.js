@@ -12,6 +12,20 @@ $(document).ready(function () {
     });
 });
 
+$(function () {
+   if($(window).width() <= 567 ) {
+       $('.slide-section').on('click', function () {
+           $('.slide-section').addClass('close');
+           if($('.slide-section').hasClass('close')) {
+           // console.log('Zatvori meni.');
+           var checkBoxes = $('#toggle');
+           checkBoxes.prop("checked", !checkBoxes.prop("checked"));
+       }
+       });
+
+   }
+});
+
 
 // $(document).ready(function () {
 //     $('.apartment').click(function () {
