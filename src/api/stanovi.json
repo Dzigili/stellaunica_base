@@ -1,12 +1,24 @@
 [
             { "city": "beograd",
+              "location": "Gundulićev venac",
+              "m2": "66",
+              "rooms": "2.0",
+              "price": 135000,
+              "cover-image": "static/img/stan2/gund3.jpg",
+              "images": [ "static/img/stan2/gund3.jpg","static/img/stan2/gund2.jpg","static/img/stan2/gund4.jpg",
+              "static/img/stan2/gund5.jpg","static/img/stan2/gund6.jpg","static/img/stan2/gund7.jpg","static/img/stan2/gund8.jpg",
+              "static/img/stan2/gund9.jpg","static/img/stan2/gund10.jpg","static/img/stan2/gund1.jpg"],
+              "description": "Gundulićev venac, dvosoban salonski, 66kv, treći sprat od pet bez lifta, kaljeva i TA peć. Stan je dvostran sa dva mokra čvora. Zgrada je veoma uredna sa mermernim ulazom. Delimično renoviran-kupatila i vodovodne instalacije. U dobrom stanju, očuvan. Uknjižen i odmah useljiv."
+            },
+            { "city": "beograd",
               "location": "Lokal, Vračar",
               "m2": "37",
               "rooms": "/",
               "price": 95000,
               "cover-image": "static/img/stan1/018.jpg",
               "images": [ "static/img/stan1/018.jpg","static/img/stan1/010.jpg","static/img/stan1/002.jpg",
-                "static/img/stan1/008.jpg","static/img/stan1/017.jpg","static/img/stan1/021.jpg"],
+                "static/img/stan1/008.jpg","static/img/stan1/017.jpg","static/img/stan1/021.jpg","static/img/stan1/002.jpg",
+              "static/img/stan1/008.jpg","static/img/stan1/017.jpg","static/img/stan1/021.jpg"],
               "description": "Vračar, lokal blizu Njegoševe, 37kv, u prizemlju sa izlogom ka ulici.Luksuzno sređen sa mini kuhinjom i mokrim čvorom. Cena 95000e"
             }
 ]
