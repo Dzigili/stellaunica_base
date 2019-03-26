@@ -20,6 +20,17 @@
                 "static/img/stan1/008.jpg","static/img/stan1/017.jpg","static/img/stan1/021.jpg","static/img/stan1/002.jpg",
               "static/img/stan1/008.jpg","static/img/stan1/017.jpg","static/img/stan1/021.jpg"],
               "description": "Vračar, lokal blizu Njegoševe, 37kv, u prizemlju sa izlogom ka ulici.Luksuzno sređen sa mini kuhinjom i mokrim čvorom. Cena 95000e"
+            },
+            { "city": "beograd",
+              "location": "Rent, S.Markovića",
+              "m2": "85",
+              "rooms": "3.0",
+              "price": 500,
+              "cover-image": "static/img/stan3/IMG114628.jpg",
+              "images": [ "static/img/stan3/IMG114628.jpg","static/img/stan3/IMG114628.jpg","static/img/stan3/IMG114628.jpg",
+              "static/img/stan3/IMG114628.jpg","static/img/stan3/IMG114628.jpg","static/img/stan3/IMG114628.jpg",
+              "static/img/stan3/IMG114628.jpg","static/img/stan3/IMG114628.jpg","static/img/stan3/IMG114628.jpg","static/img/stan3/IMG114628.jpg"],
+              "description": "Na atraktivnoj lokaciji u ul. Svetozara Markovića, rentira se trosoban stan od 85kv na prvom spratu novije zgrade sa veoma urednim i održavanim ulazom sa cg i liftom. Stan je dvostran sa 2 mokra čvora a koncepcija stana pruža više opcija za najam.  1) najam za poslovni prostor; 2) najam za stanovanje(opremljen stvarima); 3) kombinovano, deo za stanovanje a veći deo za poslovni prostor. Mesečni troškovi infostana 14000 din. Mesečna renta je 500e plus depozit."
             }
 ]
 
