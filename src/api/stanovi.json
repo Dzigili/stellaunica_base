@@ -3,12 +3,12 @@
               "location": "Gundulićev venac",
               "m2": "66",
               "rooms": "2.0",
-              "price": 135000,
+              "price": 130000,
               "cover-image": "static/img/stan2/gund8.jpg",
               "images": [ "static/img/stan2/gund8.jpg","static/img/stan2/gund2.jpg","static/img/stan2/gund4.jpg",
               "static/img/stan2/gund5.jpg","static/img/stan2/gund6.jpg","static/img/stan2/gund7.jpg","static/img/stan2/gund3.jpg",
               "static/img/stan2/gund9.jpg","static/img/stan2/gund10.jpg","static/img/stan2/gund1.jpg"],
-              "description": "Gundulićev venac, dvosoban salonski, 66kv, treći sprat od pet bez lifta, kaljeva i TA peć. Stan je dvostran sa dva mokra čvora. Zgrada je veoma uredna sa mermernim ulazom. Delimično renoviran-kupatila i vodovodne instalacije. U dobrom stanju, očuvan. Uknjižen i odmah useljiv. Cena 135000e"
+              "description": "Gundulićev venac, dvosoban salonski, 66kv, treći sprat od pet bez lifta, kaljeva i TA peć. Stan je dvostran sa dva mokra čvora. Zgrada je veoma uredna sa mermernim ulazom. Delimično renoviran-kupatila i vodovodne instalacije. U dobrom stanju, očuvan. Uknjižen i odmah useljiv. Cena 130000e"
             },
             { "city": "beograd",
               "location": "Lokal, Vračar",
@@ -31,6 +31,17 @@
               "static/img/stan3/IMG114628.jpg","static/img/stan3/IMG114628.jpg","static/img/stan3/IMG114628.jpg",
               "static/img/stan3/IMG114628.jpg","static/img/stan3/IMG114628.jpg","static/img/stan3/IMG114628.jpg","static/img/stan3/IMG114628.jpg"],
               "description": "Na atraktivnoj lokaciji u ul. Svetozara Markovića, rentira se trosoban stan od 85kv na prvom spratu novije zgrade sa veoma urednim i održavanim ulazom sa cg i liftom. Stan je dvostran sa 2 mokra čvora a koncepcija stana pruža više opcija za najam.  1) najam za poslovni prostor; 2) najam za stanovanje(opremljen stvarima); 3) kombinovano, deo za stanovanje a veći deo za poslovni prostor. Mesečni troškovi infostana 14000 din. Mesečna renta je 500e plus depozit."
+            },
+            { "city": "zemun",
+              "location": "Kuća, Kalvarija, ul.Koruška",
+              "m2": "250",
+              "rooms": "5+",
+              "price": 300000,
+              "cover-image": "static/img/stan4/WP001.jpg",
+              "images": [ "static/img/stan4/WP001.jpg","static/img/stan4/specifikacija_kuce.jpg","static/img/stan4/WP002.jpg","static/img/stan4/WP006.jpg",
+              "static/img/stan4/WP015.jpg","static/img/stan4/WP027.jpg","static/img/stan4/WP029.jpg",
+              "static/img/stan4/WP030.jpg","static/img/stan4/WP031.jpg","static/img/stan4/WP032.jpg"],
+              "description": "Zemun,elitna Kalvarija, ul Koruška, kuća od 250 neto i 330 bruto kvadrata,sama na placu od 5 ari. Kuća ima 2 nivoa, sa 3 stana, veliki podrum, tavan i 2 velike garaže. Kuća je u dobrom stanju, uredna, održavana i očuvana, a dvorište sređeno sa travnjakom i cvećem. Kuća je uknjižena i poseduje kompletnu i urednu dokumentaciju. Zanimljiva je za veliku porodicu za život,a takođe i za investitore i gradnju novog objekta. Cena kuće i placa je 300000e. Za svaku preporuku."
             }
 ]
 
