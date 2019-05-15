@@ -25,12 +25,12 @@
               "location": "Rent, S.Markovića",
               "m2": "85",
               "rooms": "3.0",
-              "price": 500,
+              "price": 450,
               "cover-image": "static/img/stan3/IMG114628.jpg",
-              "images": [ "static/img/stan3/IMG114628.jpg","static/img/stan3/IMG114628.jpg","static/img/stan3/IMG114628.jpg",
-              "static/img/stan3/IMG114628.jpg","static/img/stan3/IMG114628.jpg","static/img/stan3/IMG114628.jpg",
-              "static/img/stan3/IMG114628.jpg","static/img/stan3/IMG114628.jpg","static/img/stan3/IMG114628.jpg","static/img/stan3/IMG114628.jpg"],
-              "description": "Na atraktivnoj lokaciji u ul. Svetozara Markovića, rentira se trosoban stan od 85kv na prvom spratu novije zgrade sa veoma urednim i održavanim ulazom sa cg i liftom. Stan je dvostran sa 2 mokra čvora a koncepcija stana pruža više opcija za najam.  1) najam za poslovni prostor; 2) najam za stanovanje(opremljen stvarima); 3) kombinovano, deo za stanovanje a veći deo za poslovni prostor. Mesečni troškovi infostana 14000 din. Mesečna renta je 500e plus depozit."
+              "images": [ "static/img/stan3/IMG114628.jpg","static/img/stan3/IMG131314.jpg","static/img/stan3/IMG131327.jpg",
+              "static/img/stan3/IMG131337.jpg","static/img/stan3/IMG131342.jpg","static/img/stan3/IMG131355.jpg",
+              "static/img/stan3/IMG131403.jpg","static/img/stan3/IMG131525.jpg","static/img/stan3/IMG131834.jpg","static/img/stan3/IMG114628.jpg"],
+              "description": "Na atraktivnoj lokaciji u ul. Svetozara Markovića, rentira se trosoban stan od 85kv na prvom spratu novije zgrade sa veoma urednim i održavanim ulazom sa cg i liftom. Stan je dvostran sa 2 mokra čvora a koncepcija stana pruža više opcija za najam.  1) najam za poslovni prostor; 2) najam za stanovanje(opremljen stvarima); 3) kombinovano, deo za stanovanje a veći deo za poslovni prostor. Mesečni troškovi infostana 14000 din. Mesečna renta je 450e plus depozit."
             },
             { "city": "zemun",
               "location": "Kuća, Kalvarija, ul.Koruška",
